@@ -80,7 +80,7 @@ dice_ascii = {
 
 def throw_dice() -> tuple[int, str]:
     throw_result = randint(1, 6)
-    return throw_result, dice_ascii[throw_result-1]
+    return throw_result, dice_ascii[throw_result]
 
 def play_turn(throw_count, name="Player"):
     for i in range(throw_count):
