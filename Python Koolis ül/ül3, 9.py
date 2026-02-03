@@ -107,3 +107,4 @@ if __name__ == '__main__':
         for name in player_names:
             play_turn(throw_count, name)
             input("Järgmise mängija kord. ENTER")
+
